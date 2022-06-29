@@ -25,7 +25,7 @@ func Test_longestPalindromeDP(t *testing.T) {
 		{
 			name: "babad",
 			args: args{s: "babad"},
-			want: "bab",
+			want: "aba",
 		},
 		{
 			name: "cbbd",
